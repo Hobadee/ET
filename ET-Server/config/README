@@ -1,0 +1,1 @@
+This folder should just have PHP extension pages which are included regular PHP pages when an Admin is logged in.  All direct access should be denied.
