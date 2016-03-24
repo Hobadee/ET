@@ -68,25 +68,6 @@ class Autoloader{
 			break;
 		}
 	}
-	
-
-	/*
-	 * Original Implementation inside global.php
-	 spl_autoload_register(function ($class) {
-	 $cfg = $GLOBALS['cfg'];
-	
-	 $path = ROOT.$cfg['lib']['class'];
-	
-	 // Allow for namspaces = subdirs
-	 // Split on "\" and re-assemble as directory structure
-	 $parts = explode("\\", $class);
-	 foreach ($parts as $part){
-	 $path .= "/".$part;
-	 }
-	 $path .= '.class.php';
-	
-	 require $path;		// TODO: Check for existence - throw error if not exist.
-	 });
-	 */
+}
 	
 }

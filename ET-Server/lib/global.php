@@ -1,14 +1,8 @@
 <?php
 /*
+ * 
  * Global library for all everythings!!!!
  * For the wins!!!!!!!
- * 
- * 
- * 
- * ....but really, this should include some GLOBAL stuff.
- * 
- * Most notably, PHP to attempt autoload of PHP classes when missing.
- * Should traverse /libraries folder for all *.class.php files.
  * 
  */
 define("ROOT", getcwd());			// This is the root of the PHP file structure - used for includes and whatnot...
