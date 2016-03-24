@@ -1,5 +1,5 @@
 <?php 
-/** This is a class file - no output should happen from this file **/
+/* This is a class file - no output should happen from this file */
 
 class Database {
 	private $connection;
@@ -36,6 +36,12 @@ class Database {
 	}
 	
 	
+	/**
+	 * Created a new Database connection
+	 * Takes connection info from CFG variables set in the config file.
+	 * 
+	 * @return Database Database object.
+	 */
 	public function __construct(){
 		$cfg = $GLOBALS['cfg'];
 		// Constructor logic
